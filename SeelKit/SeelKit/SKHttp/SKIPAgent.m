@@ -27,8 +27,8 @@
     {
         case SKIPServerTypeTest:  ///< 测试服
         {
-                self.serverIp    =  @"https://api-dev.seel.com/";
-                self.webServerIp =  @"https://api-dev.seel.com/";
+                self.serverIp    =  @"https://api-test.seel.com/";
+                self.webServerIp =  @"https://api-test.seel.com/";
                 self.testEnv     = YES;
                 break;
         }

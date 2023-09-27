@@ -15,8 +15,8 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "return-assurance-sdk-sls"
-  spec.version      = "1.0.0"
+  spec.name         = "return-assurance-sdk-preview"
+  spec.version      = "1.2.0"
   spec.summary      = "Return assurance SDK for SLS"
 
   # This description is used to generate tags and improve search results.
@@ -92,9 +92,9 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "SeelKit/SeelKit/**/*.{h,m}"
+  spec.source_files  = "SeelKit/*.{h,m}"
 
-  # spec.public_header_files = "Classes/**/*.h"
+  # spec.public_header_files = "SeelKit/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

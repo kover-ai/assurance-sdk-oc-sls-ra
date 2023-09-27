@@ -212,8 +212,11 @@
 - (void)onConfigRequestHeSKer:(SKHTTPSessionManager *)manager
 {
     [manager.requestSerializer setCachePolicy:NSURLRequestReloadIgnoringLocalCacheData];
-    NSString *key = [SKAuthManager shared].key;
-    [manager.requestSerializer setValue:key     forHTTPHeaderField:@"API-key"];
+    // NSString *key = [SKAuthManager shared].key;
+    NSString *key = @"e2b4f9c8d3a7e6d2f5b0c4a1d8e9b6";
+    NSString *version = @"1.3.0";
+    [manager.requestSerializer setValue:key     forHTTPHeaderField:@"X-Seel-API-Key"];
+    [manager.requestSerializer setValue:version  forHTTPHeaderField:@"X-Seel-API-Version"];
 }
 
 #pragma mark ---配置请求参数

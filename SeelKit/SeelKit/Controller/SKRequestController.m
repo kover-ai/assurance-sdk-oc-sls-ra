@@ -41,7 +41,7 @@ DEF_MESSAGE(LISTENER)
 {
     if (msg.sending)
     {
-        [self HTTP_POSTBODY:msg METHOD:@"v1/quotes"];
+        [self HTTP_POSTBODY:msg METHOD:@"v1/seel-ra/quotes"];
     }
     else if (msg.succeed)
     {

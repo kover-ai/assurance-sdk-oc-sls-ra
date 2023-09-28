@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint return-assurance-sdk-sls.podspec' to ensure this is a
+#  Be sure to run `pod spec lint return-assurance-sdk-sls-test.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -15,9 +15,9 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "return-assurance-sdk-preview"
+  spec.name         = "return-assurance-sdk-sls-demo"
   spec.version      = "1.2.0"
-  spec.summary      = "Return assurance SDK for SLS"
+  spec.summary      = "A short description of return-assurance-sdk-sls-demo."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-                      Return assurance SDK for SLS
+          test pod
                    DESC
 
   spec.homepage     = "https://github.com/kover-ai/assurance-sdk-oc-sls-ra"
@@ -65,7 +65,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  spec.platform     = :ios, "12.0"
+  # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -92,9 +92,10 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "SeelKit/*.{h,m}"
+  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  spec.exclude_files = "Classes/Exclude"
 
-  # spec.public_header_files = "SeelKit/*.h"
+  # spec.public_header_files = "Classes/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

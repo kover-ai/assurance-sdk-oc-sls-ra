@@ -214,7 +214,7 @@
     [manager.requestSerializer setCachePolicy:NSURLRequestReloadIgnoringLocalCacheData];
     NSString *key = [SKAuthManager shared].key;
     NSString *version = @"1.3.0";
-    [manager.requestSerializer setValue:key     forHTTPHeaderField:@"X-Seel-API-Key"];
+    [manager.requestSerializer setValue:key     forHTTPHeaderField:@"API-Key"];
     [manager.requestSerializer setValue:version  forHTTPHeaderField:@"X-Seel-API-Version"];
 }
 

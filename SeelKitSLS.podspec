@@ -15,9 +15,9 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "RA-SDK-Test"
-  spec.version      = "1.8.0"
-  spec.summary      = "A short description of RA-SDK-Test."
+  spec.name         = "SeelKitSLS"
+  spec.version      = "2.0.0"
+  spec.summary      = "A short description of SeelKitSLS."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-                RA-SDK-TEST
+          SeelKitSLS
                    DESC
 
   spec.homepage     = "http://EXAMPLE/RA-SDK-Test"

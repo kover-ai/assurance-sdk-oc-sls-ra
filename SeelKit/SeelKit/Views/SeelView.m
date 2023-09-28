@@ -56,8 +56,8 @@
 
 @end
 
-static NSString *const skTitle      = @"On-time Delivery Guarantee";
-static NSString *const skDescribe   = @"Up to $100 coverage against loss & delay";
+static NSString *const skTitle      = @"Return Assurance";
+static NSString *const skDescribe   = @"Protect your order with a 7-day return window";
 
 @implementation SeelView
 - (instancetype)init

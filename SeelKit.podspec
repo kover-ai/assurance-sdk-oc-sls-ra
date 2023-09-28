@@ -15,9 +15,9 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "return-assurance-sdk-sls-demo"
+  spec.name         = "SeelKit"
   spec.version      = "1.2.0"
-  spec.summary      = "A short description of return-assurance-sdk-sls-demo."
+  spec.summary      = "A short description of SeelKit."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -92,8 +92,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files  = "SeelKit/**/*.{h,m}"
+  spec.exclude_files = "Integration Guide.pdf"
 
   # spec.public_header_files = "Classes/**/*.h"
 

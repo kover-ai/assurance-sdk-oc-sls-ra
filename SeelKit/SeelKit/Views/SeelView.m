@@ -236,7 +236,7 @@ static NSString *const skDescribe   = @"Protect your order with a 7-day return w
 {
     if (!_icon) {
         _icon = [UIImageView new];
-        _icon.backgroundColor = UIColor.lightGrayColor;
+//        _icon.backgroundColor = UIColor.lightGrayColor;
         [self addSubview:_icon];
         [_icon SKMAS_makeConstraints:^(SKMASConstraintMaker *make) {
             make.left.SKMAS_offset(14.f);
@@ -350,7 +350,7 @@ static NSString *const skDescribe   = @"Protect your order with a 7-day return w
     if (!_powerIcon) {
         _powerIcon = [[UIImageView alloc] init];
 //        _icon.image =
-        _powerIcon.backgroundColor = UIColor.lightGrayColor;
+//        _powerIcon.backgroundColor = UIColor.lightGrayColor;
         [self addSubview:_powerIcon];
         [_powerIcon SKMAS_makeConstraints:^(SKMASConstraintMaker *make) {
             make.size.SKMAS_equalTo(CGSizeMake(25.31f, 10.f));
